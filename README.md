@@ -1,15 +1,16 @@
 # Pizzeria
 La pizzería “Sabor Italiano” lleva 11 años ofreciendo pizzas artesanales y un servicio de calidad. Con el crecimiento del negocio, sus dueños decidieron implementar un sistema automatizado para mejorar la gestión de ventas, inventarios y atención al cliente. Esta decisión busca optimizar los procesos y adaptarse a las nuevas tecnologías sin perder la esencia que los caracteriza.
 
-Usuarios (id, nombre, apellido, correo, contraseña, rol)
-Clientes (id, nombre, apellido, telefono, direccion)
-Productos (id, nombre, descripcion, precio, stock)
-Ventas (id, fecha, total, id_usuario, id_cliente)
-Detalle_Venta(id, id_venta, id_producto, cantidad, precio_unitario, subtotal)
-Ingredientes (id, nombre, cantidad_disponible, unidad_medida)
-Productos_Ingredientes (id_producto, id_ingrediente, cantidad_usada)
-Proveedores (id, nombre, telefono, correo, direccion)
-Proveedor_ingrediente (id_proveedor, id_ingrediente, precio_unitatio, fecha_ultimo_suministro)
+# Entidades 
+Usuarios (id, nombre, apellido, correo, contraseña, rol).
+Clientes (id, nombre, apellido, telefono, direccion).
+Productos (id, nombre, descripcion, precio, stock).
+Ventas (id, fecha, total, id_usuario, id_cliente).
+Detalle_Venta(id, id_venta, id_producto, cantidad, precio_unitario, subtotal).
+Ingredientes (id, nombre, cantidad_disponible, unidad_medida).
+Productos_Ingredientes (id_producto, id_ingrediente, cantidad_usada).
+Proveedores (id, nombre, telefono, correo, direccion).
+Proveedor_ingrediente (id_proveedor, id_ingrediente, precio_unitatio, fecha_ultimo_suministro).
 
 # Descripcion y Cardinalidad
  1. Usuarios
