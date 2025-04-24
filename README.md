@@ -12,7 +12,7 @@ Gracias a esta automatización, la pizzería mejora su atención al cliente, opt
 # Entidades 
 Usuarios (id, nombre, apellido, correo, contraseña, rol)      
 Clientes (id, nombre, apellido, telefono, direccion)            
-Productos (id, nombre, descripcion, precio, stock)         
+Productos (id, imagen, nombre, descripcion, precio, stock)         
 Ventas (id, fecha, total, id_usuario, id_cliente)       
 Detalle_Venta(id, id_venta, id_producto, cantidad, precio_unitario, subtotal)      
 Ingredientes (id, nombre, cantidad_disponible, unidad_medida)         
