@@ -1,5 +1,13 @@
 # Pizzeria
-La pizzería “Sabor Italiano” lleva 11 años ofreciendo pizzas artesanales y un servicio de calidad. Con el crecimiento del negocio, sus dueños decidieron implementar un sistema automatizado para mejorar la gestión de ventas, inventarios y atención al cliente. Esta decisión busca optimizar los procesos y adaptarse a las nuevas tecnologías sin perder la esencia que los caracteriza.
+Descripción del negocio – Pizzería:
+
+La pizzería es un negocio consolidado que lleva más de once años ofreciendo servicios de venta de pizzas a sus clientes. Cuenta con un menú variado que puede ser consultado fácilmente, permitiendo a los clientes seleccionar productos, definir cantidades y elegir la modalidad de atención: consumo en el local, para llevar o entrega a domicilio. Cada producto está acompañado de una galería de imágenes que muestra su presentación, mejorando la experiencia del cliente antes de realizar un pedido.
+
+Para optimizar su operatividad, la pizzería ha decidido implementar un sistema automatizado que gestiona múltiples aspectos del negocio. El sistema contempla distintos roles de usuario, a quienes se asignan permisos específicos según sus funciones, garantizando un acceso controlado y seguro. A través de este sistema, se registra cada venta, vinculando los productos seleccionados con el cliente correspondiente y el método de pago utilizado.
+
+Además, se realiza un seguimiento riguroso del inventario de ingredientes, incluyendo insumos clave como queso, salsa y masa, todos los cuales están relacionados con los productos del menú mediante recetas detalladas. El sistema también contempla la gestión de proveedores, quienes suministran los ingredientes esenciales, lo cual permite llevar un control de entradas, precios y fechas de adquisición. Esta funcionalidad garantiza un abastecimiento eficiente y la trazabilidad de los recursos utilizados en la preparación de los alimentos.
+
+Gracias a esta automatización, la pizzería mejora su atención al cliente, optimiza sus procesos internos y mantiene un control preciso de sus operaciones diarias.
 
 # Entidades 
 Usuarios (id, nombre, apellido, correo, contraseña, rol)      
